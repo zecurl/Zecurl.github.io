@@ -1,0 +1,40 @@
+/* Navigation */
+#navbar {
+  background: #2c3e50;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Blog Post */
+.post {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f0f0f0;
+}
